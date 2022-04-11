@@ -9,6 +9,8 @@ import routes from './routes';
 const { REACT_APP_ENV } = process.env;
 
 export default defineConfig({
+  base: '/lps/',
+  publicPath: '/lps/',
   hash: true,
   antd: {},
   dva: {
